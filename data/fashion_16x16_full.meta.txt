@@ -1,0 +1,8 @@
+source: data/fashion/train-images-idx3-ubyte.gz
+N: 60000  (of total 60000)
+src_image_size: 28x28
+target_image_size: 16x16
+d: 256
+resize: integer area-averaging downsample
+pixel_range: 0..255 (未归一化，C++ 端负责中心化)
+format: little-endian; [uint32 N][uint32 d][float64 row-major]

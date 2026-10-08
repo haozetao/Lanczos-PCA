@@ -1,0 +1,5 @@
+  Lanczos 单步最大深度估算 = 30  → levels_after_bootstrap = 34
+  GUESS_SAFETY 未设置，将按 d=256 自动使用 4
+=== FHE-PCA [bootstrap] (d=256, m_iter=10, Newton=4, Bootstrap=ON, FRO=ON(skip_first=4)) ===
+
+[Phase 1] Client setup

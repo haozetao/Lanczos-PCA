@@ -1,0 +1,23 @@
+# 构建产物
+build/
+build_*/
+cmake-build-*/
+
+# Python
+__pycache__/
+*.pyc
+.venv*/
+
+# 数据集（按 data/README.md 重新生成）；仓库只附带三个 <1 MB 的小数据集
+data/*.bin
+!data/yale_16x16.bin
+!data/fashion_16x16_N200.bin
+!data/mnist_16x16_N200.bin
+data/YALE/
+data/fashion/
+data/mnist/
+
+# 系统 / 编辑器
+.DS_Store
+.vscode/
+.idea/

@@ -1,0 +1,8 @@
+dataset: Yale Face Database (centered, P5 PGM)
+source: data/YALE/centered
+N: 165
+d: 256
+target_image_size: 16x16
+resize: integer area-averaging downsample
+pixel_range: 0..255 (未归一化，C++ 端负责中心化)
+format: little-endian; [uint32 N][uint32 d][float64 row-major]
